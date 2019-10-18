@@ -21,10 +21,13 @@
 // FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 // IN THE SOFTWARE.
 
+#include <stdlib.h>
+
+
 #ifndef __COOPLFUC_H
 #define __COOPLFUC_H
 
-#define nullptr NULL
+#define nullptr 0
 
 // class_begin(class_name) -- beginning of a class definition
 // @param class_name: the canonical name, for example, "MyClass"

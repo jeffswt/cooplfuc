@@ -61,6 +61,7 @@
 // @example initmethod(int a) <--> MyClass(int a);
 #define initmethod(__args...)                                                 \
     void (*init)(##__args)
+#pragma GCC diagnostic ignored "-Wimplicit-function-declaration"
 
 // method_begin(return_type, class_name, method_name, arguments...) -- begin
 //         definition of class method
